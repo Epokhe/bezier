@@ -147,7 +147,8 @@ def extension_modules():
         print(ON_READTHEDOCS_MESSAGE, file=sys.stderr, end="")
         return []
 
-    if NO_EXTENSION_ENV in os.environ:
+#     if NO_EXTENSION_ENV in os.environ:
+    if True:
         print(NO_SPEEDUPS_MESSAGE, file=sys.stderr, end="")
         return []
 
